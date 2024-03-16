@@ -93,24 +93,35 @@ export const projectsData = [
   },
 ] as const;
 
-export const skillsData = [
+export const skillsDataFrontEnd = [
   "HTML",
   "CSS",
+  "Saas",
   "JavaScript",
   "TypeScript",
-  "React",
+  "React.js",
   "Next.js",
-  "Node.js",
-  "Git",
   "Tailwind",
-  "Prisma",
+] as const;
+
+export const skillsDataBackend = [
+  "Java",
+  "JSP",
+  "Servlets",
+  "Spring Framework",
+  "Hibernate",
+  "Node.js",
+  "Express.js",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "Mysql",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+
+] as const;
+
+export const skillsDataCloud = [
+  "Amazon Web Services",
+  "Google Cloud Platform",
+  "Packer",
+  "Terraform",
+
 ] as const;
