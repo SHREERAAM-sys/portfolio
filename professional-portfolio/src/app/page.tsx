@@ -1,6 +1,7 @@
 import About from "@/components/about";
 import Intro from "@/components/intro";
 import SectionDivider from "@/components/section-divider";
+import Skills from "@/components/skills";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,6 +10,8 @@ export default function Home() {
     <Intro />
     <SectionDivider />
     <About />
+    <SectionDivider />
+    <Skills />
     </main>
   );
 }
